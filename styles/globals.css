@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero-video-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.slant-line {
+  background: #5dba61;
+  width: 100%;
+  transform: rotate3d(1, 1, 1, 3deg);
+  height: 66px;
+  margin-top: -30px;
+}
+
+.has-text-purple {
+  color: #b368a9;
+}
+
+.has-text-aqua {
+  color: #00a5a0;
+}
+
+.has-text-dark-green {
+  color: #5dba61;
+}
