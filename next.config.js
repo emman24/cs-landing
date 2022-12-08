@@ -5,9 +5,9 @@ const withVideos = require("next-videos");
 const nextConfig = {
   reactStrictMode: true,
   distDir: "build",
-  images: {
-    unoptimized: true,
-  },
+  // images: {
+  //   unoptimized: true,
+  // },
 };
 
 module.exports = withVideos(nextConfig);

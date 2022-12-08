@@ -111,7 +111,7 @@ export default function Home() {
           </div>
 
           <div className="intro column p-6 is-8 is-offset-2 has-text-centered">
-            <h2 className="title is-size-2 mb-6">
+            <h2 className="title is-size-2">
               Perfect for developers or designers!
             </h2>
             <p className="subtitle">

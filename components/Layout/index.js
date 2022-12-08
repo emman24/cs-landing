@@ -27,9 +27,9 @@ export default function Layout({ children }) {
           </div>
           <div id="navbarMenu" className="navbar-menu">
             <div className="navbar-end">
-              <div className="tabs is-right">
+              <div className="tabs is-right ">
                 <ul>
-                  <li className="">
+                  <li>
                     <Link href="/">Home</Link>
                   </li>
                   <li>
@@ -42,17 +42,286 @@ export default function Layout({ children }) {
                     <Link href="/support">Help</Link>
                   </li>
                 </ul>
-                <span className="navbar-item">
-                  <a
-                    className="button is-white is-outlined"
-                    href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/hero.html"
-                  >
-                    <span className="icon">
-                      <i className="fa fa-github"></i>
-                    </span>
-                    <span title="Hello from the other side">View Source</span>
-                  </a>
-                </span>
+
+                {/* -----------------------SOLUTIONS-----------------------------------*/}
+                <div className="navbar-item has-dropdown is-hoverable is-mega">
+                  <div className="navbar-link">Solutions</div>
+                  <div id="blogDropdown" className="navbar-dropdown">
+                    <div className="container is-fluid">
+                      <div className="columns">
+                        <div className="column">
+                          <h1 className="title is-7 is-mega-menu-title has-text-link is-uppercase has-text-weight-bold mb-2">
+                            Digital Core Curriculum
+                          </h1>
+
+                          <Link
+                            className="navbar-item  border-0"
+                            href="/digital-core-curriculum"
+                          >
+                            <div className="navbar-content">
+                              <p className="tabs">First Time Credit </p>
+                            </div>
+                          </Link>
+                          <Link
+                            className="navbar-item  border-0"
+                            href="/careers"
+                          >
+                            <div className="navbar-content">
+                              <p className="tabs">Careers </p>
+                            </div>
+                          </Link>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Advanced Placements</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">
+                                Career & Technical Education{" "}
+                              </p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0 mb-4" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Alternative Programs</p>
+                            </div>
+                          </a>
+
+                          <h1 className="title is-7 is-mega-menu-title has-text-link is-uppercase has-text-weight-bold mb-2">
+                            Teacher Support
+                          </h1>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Instructional Services</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Professional Services</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Educator Community</p>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div className="column">
+                          <h1 className="title is-7 is-mega-menu-title has-text-link is-uppercase has-text-weight-bold mb-2">
+                            Learning Acceleration
+                          </h1>
+
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Credit Recovery</p>
+                            </div>
+                          </a>
+
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">
+                                Skill Remediation & Grade-Level Proficiency
+                              </p>
+                            </div>
+                          </a>
+
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Intervention</p>
+                            </div>
+                          </a>
+
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Early Literacy</p>
+                            </div>
+                          </a>
+
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">English Language Learners </p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0 mb-4" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Tutoring</p>
+                            </div>
+                          </a>
+
+                          <h1 className="title is-7 is-mega-menu-title has-text-link is-uppercase has-text-weight-bold mb-2">
+                            Assessments
+                          </h1>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Diagnostic</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Benchmark</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Formative</p>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div className="column">
+                          <h1 className="title is-7 is-mega-menu-title has-text-link is-uppercase has-text-weight-bold mb-2">
+                            Test Readiness
+                          </h1>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">
+                                Standards Growth & Mastery{" "}
+                              </p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">End of Course </p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0 mb-4" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">
+                                College Entrance & High School Equivalency
+                              </p>
+                            </div>
+                          </a>
+
+                          <h1 className="title is-7 is-mega-menu-title has-text-link is-uppercase has-text-weight-bold mb-2">
+                            Whole Learner Support
+                          </h1>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">
+                                Social & Emotional Learning
+                              </p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Executive Functioning</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/*--------------------------------SOLUTIONS END----------------------------------*/}
+
+                {/*--------------------------------PRODUCT & SERVICES-------------------------------*/}
+                <div className="navbar-item has-dropdown is-hoverable is-mega">
+                  <div className="navbar-link">Product & Services</div>
+                  <div id="blogDropdown" className="navbar-dropdown">
+                    <div className="container is-fluid">
+                      <div className="columns">
+                        <div className="column">
+                          <h1 className="title is-7 is-mega-menu-title has-text-link has-text-weight-bold mb-2">
+                            CURRICULUM
+                          </h1>
+
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs mb-0 has-text-weight-bold">
+                                Courseware
+                              </p>
+                              <p className="is-size-7 has-text-grey ">
+                                Secondary Curriculum, Credit Recovery <br />
+                                College and Career Readiness
+                              </p>
+                            </div>
+                          </a>
+
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Apex Course</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">EdOptions Academy</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Calvert Learning</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="column">
+                          <a className="navbar-item  border-0 mt-6" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">BASE Education</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Reading Eggs</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Find Out What's New</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="column">
+                          <h1 className="title is-7 is-mega-menu-title has-text-link  has-text-weight-bold mb-2">
+                            ASSESSMENT & PERSONALIZED LEARNING
+                          </h1>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Exact Path</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Study Island</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Apex Tutorial</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="column">
+                          <h1 className="title is-7 is-mega-menu-title has-text-link  has-text-weight-bold mb-2">
+                            SERVICES
+                          </h1>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Instructional Services</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0 mb-4" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Consulting Services</p>
+                            </div>
+                          </a>
+                          <h1 className="title is-7 is-mega-menu-title has-text-link  has-text-weight-bold mb-2">
+                            VIRTUAL SCHOOLS
+                          </h1>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">
+                                Apex Learning Virtual School
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/*-------------------------------PRODUCT & SERVICES END----------------------------------*/}
               </div>
             </div>
           </div>
