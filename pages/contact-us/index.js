@@ -32,7 +32,7 @@ export default function Index() {
 
 			<section className="container mt-6 mb-6">
 				<div className="columns is-centered">
-					<div className="column input-box-width">
+					<div className="column input-box-width pt-6">
 						<div class="field is-horizontal">
 							<div class="field-label is-normal">
 								<label class="label">First Name</label>
@@ -91,7 +91,7 @@ export default function Index() {
 							<div class="field-body">
 								<div class="field">
 									<p class="control">
-										<textarea class="textarea is-info"></textarea>
+										<textarea class="textarea is-normal"></textarea>
 									</p>
 								</div>
 							</div>

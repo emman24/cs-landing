@@ -49,7 +49,7 @@ export default function Support() {
               </p>
             </div>
             <button class="button is-info is-button-hover has-text-weight-semibold mt-4">
-              Get A Quote
+              Get a quote
             </button>
           </div>
 

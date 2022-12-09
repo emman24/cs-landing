@@ -41,6 +41,9 @@ export default function Layout({ children }) {
                   <li>
                     <Link href="/support">Help</Link>
                   </li>
+                  <li>
+                    <Link href="/contact-us">Contact Us</Link>
+                  </li>
                 </ul>
 
                 {/* -----------------------SOLUTIONS-----------------------------------*/}
@@ -268,7 +271,7 @@ export default function Layout({ children }) {
                           </a>
                           <a className="navbar-item  border-0" href="#">
                             <div className="navbar-content">
-                              <p className="tabs">Find Out What's New</p>
+                              <p className="tabs">Find Out Whats New</p>
                             </div>
                           </a>
                         </div>
@@ -484,78 +487,104 @@ export default function Layout({ children }) {
 
       {children}
 
-      <footer className="footer">
+      <footer className="footer has-background-grey-light">
         <div className="container">
           <div className="columns">
-            <div className="column is-3 is-offset-2 ">
-              <h2 className="is-uppercase">
-                <strong>Digital Core Curriculum</strong>
+            <div className="column">
+              <h2 className="is-uppercase mb-4 ">
+                <strong className="mb-4 has-text-weight-bold has-text-link-dark">
+                  Digital Core Curriculum
+                </strong>
               </h2>
               <ul>
                 <li>
-                  <a href="#">First Time Credit</a>
+                  <a href="#" className="has-text-black-ter">
+                    First Time Credit
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Careers</a>
+                  <a href="#" className="has-text-black-ter">
+                    Careers
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Advanced Placements</a>
+                  <a href="#" className="has-text-black-ter">
+                    Advanced Placements
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Career & Technical Education</a>
+                  <a href="#" className="has-text-black-ter">
+                    Career & Technical Education
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Alternative Programs</a>
+                  <a href="#" className="has-text-black-ter">
+                    Alternative Programs
+                  </a>
                 </li>
               </ul>
             </div>
-            <div className="column is-3">
-              <h2 className="is-uppercase">
-                <strong>Category</strong>
+            <div className="column">
+              <h2 className="is-uppercase mb-4 has-text-weight-bold">
+                <strong className=" mb-4 has-text-weight-bold has-text-link-dark">
+                  Learning Acceleration
+                </strong>
               </h2>
               <ul>
                 <li>
-                  <a href="#">Labore et dolore magna aliqua</a>
+                  <a href="#" className="has-text-black-ter">
+                    Credit Recovery
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Kanban airis sum eschelor</a>
+                  <a href="#" className="has-text-black-ter">
+                    Skill Remediation & Grade-Level Proficiency
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Modular modern free</a>
+                  <a href="#" className="has-text-black-ter">
+                    Intervention
+                  </a>
                 </li>
                 <li>
-                  <a href="#">The king of clubs</a>
+                  <a href="#" className="has-text-black-ter">
+                    Early Literacy
+                  </a>
                 </li>
                 <li>
-                  <a href="#">The Discovery Dissipation</a>
+                  <a href="#" className="has-text-black-ter">
+                    English Language Learners
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Course Correction</a>
-                </li>
-                <li>
-                  <a href="#">Better Angels</a>
+                  <a href="#" className="has-text-black-ter">
+                    Tutoring
+                  </a>
                 </li>
               </ul>
             </div>
-            <div className="column is-4">
-              <h2>
-                <strong>Category</strong>
+            <div className="column">
+              <h2 className="is-uppercase mb-4 has-text-weight-bold">
+                <strong className=" mb-4 has-text-weight-bold has-text-link-dark">
+                  Test Readiness
+                </strong>
               </h2>
               <ul>
                 <li>
-                  <a href="#">Objects in space</a>
+                  <a href="#" className="has-text-black-ter">
+                    Standards Growth & Mastery
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Playing cards with coyote</a>
+                  <a href="#" className="has-text-black-ter">
+                    End of Course
+                  </a>
                 </li>
+
                 <li>
-                  <a href="#">Goodbye Yellow Brick Road</a>
-                </li>
-                <li>
-                  <a href="#">The Garden of Forking Paths</a>
-                </li>
-                <li>
-                  <a href="#">Future Shock</a>
+                  <a href="#" className="has-text-black-ter">
+                    College Entrance & High School Equivalency
+                  </a>
                 </li>
               </ul>
             </div>

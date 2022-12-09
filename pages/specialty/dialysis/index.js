@@ -36,9 +36,12 @@ export default function Index() {
 							Services
 						</h1>
 						<p className="has-text-centered has-text-grey">
-							Treats children with problems with growth, puberty, diabetes, or
-							other issues related to the hormones and the glands that produce
-							them.
+							Dialysis Center provides dialysis, a lifesaving treatment for
+							patients with chronic kidney failure. The center is a
+							hospital-based unit with 14 dialysis stations. We offer
+							hemodialysis and continuous ambulatory peritoneal dialysis (CAPD)
+							treatments to a diverse group of adult patients who have chronic –
+							or long-term – kidney failure.
 						</p>
 					</div>
 				</div>
