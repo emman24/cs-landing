@@ -79,3 +79,6 @@ body {
 .is-button-flat:hover {
   color: #fff;
 }
+.input-box-width {
+  max-width: 50%;
+}

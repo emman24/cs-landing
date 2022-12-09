@@ -78,7 +78,7 @@ export default function Layout({ children }) {
                           <a className="navbar-item  border-0" href="#">
                             <div className="navbar-content">
                               <p className="tabs">
-                                Career & Technical Education{" "}
+                                Career & Technical Education
                               </p>
                             </div>
                           </a>
@@ -322,7 +322,161 @@ export default function Layout({ children }) {
                   </div>
                 </div>
                 {/*-------------------------------PRODUCT & SERVICES END----------------------------------*/}
+                {/* -----------------------SPECIALTY START-----------------------------------*/}
+                <div className="navbar-item has-dropdown is-hoverable is-mega">
+                  <div className="navbar-link">Specialty</div>
+                  <div id="blogDropdown" className="navbar-dropdown">
+                    <div className="container is-fluid">
+                      <div className="columns">
+                        <div className="column">
+                          <h1 className="title is-7 is-mega-menu-title has-text-link is-uppercase has-text-weight-bold mb-2">
+                            Select a Specialty
+                          </h1>
+
+                          <Link
+                            className="navbar-item  border-0"
+                            href="/specialty/dentist"
+                          >
+                            <div className="navbar-content">
+                              <p className="tabs">Dentist</p>
+                            </div>
+                          </Link>
+                          <Link className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Family Doctor, GP </p>
+                            </div>
+                          </Link>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Pharmacy, Medical Supplier</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Psychiatry, Psychology</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Surgery</p>
+                            </div>
+                          </a>
+
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Physio, Recovery, Therapy</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">
+                                Sexual Health, Reproductive
+                              </p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Gynaecology, OB-GYN</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="column mt-5">
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Alternative Medicine, TCM</p>
+                            </div>
+                          </a>
+
+                          <Link
+                            className="navbar-item  border-0"
+                            href="/specialty/pediatrician"
+                          >
+                            <div className="navbar-content">
+                              <p className="tabs">
+                                General Pediatric / Pediatrician
+                              </p>
+                            </div>
+                          </Link>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Dermatology, Aesthetic</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Emergency, Ambulance</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Veterinary</p>
+                            </div>
+                          </a>
+                          <Link
+                            className="navbar-item  border-0"
+                            href="/specialty/dialysis"
+                          >
+                            <div className="navbar-content">
+                              <p className="tabs">Dialysis Center</p>
+                            </div>
+                          </Link>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Dermatology, Aesthetic</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Dermatology, Aesthetic</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="column mt-5">
+                          <Link
+                            className="navbar-item  border-0"
+                            href="/specialty/neurology"
+                          >
+                            <div className="navbar-content">
+                              <p className="tabs">Neurology</p>
+                            </div>
+                          </Link>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Oncology</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Ophthalmology, Optometry</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Urology, Nephrology</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Cardiology, Pulmonology</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Diagnostics, Laboratory</p>
+                            </div>
+                          </a>
+                          <a className="navbar-item  border-0" href="#">
+                            <div className="navbar-content">
+                              <p className="tabs">Nutrition,Obesity</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+              {/*--------------------------------SPECIALTY END----------------------------------*/}
             </div>
           </div>
         </div>
@@ -333,36 +487,30 @@ export default function Layout({ children }) {
       <footer className="footer">
         <div className="container">
           <div className="columns">
-            <div className="column is-3 is-offset-2">
-              <h2>
-                <strong>Category</strong>
+            <div className="column is-3 is-offset-2 ">
+              <h2 className="is-uppercase">
+                <strong>Digital Core Curriculum</strong>
               </h2>
               <ul>
                 <li>
-                  <a href="#">Lorem ipsum dolor sit amet</a>
+                  <a href="#">First Time Credit</a>
                 </li>
                 <li>
-                  <a href="#">Vestibulum errato isse</a>
+                  <a href="#">Careers</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum dolor sit amet</a>
+                  <a href="#">Advanced Placements</a>
                 </li>
                 <li>
-                  <a href="#">Aisia caisia</a>
+                  <a href="#">Career & Technical Education</a>
                 </li>
                 <li>
-                  <a href="#">Murphys law</a>
-                </li>
-                <li>
-                  <a href="#">Flimsy Lavenrock</a>
-                </li>
-                <li>
-                  <a href="#">Maven Mousie Lavender</a>
+                  <a href="#">Alternative Programs</a>
                 </li>
               </ul>
             </div>
             <div className="column is-3">
-              <h2>
+              <h2 className="is-uppercase">
                 <strong>Category</strong>
               </h2>
               <ul>
