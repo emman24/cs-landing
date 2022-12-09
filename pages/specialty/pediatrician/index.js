@@ -26,7 +26,7 @@ export default function Index() {
 									</h1>
 
 									<p className="mb-5">
-										A paediatrician is a child's physician who provides not only
+										A paediatrician is a childs physician who provides not only
 										medical care for children who are acutely or chronically ill
 										but also preventive health services for healthy children. A
 										paediatrician manages physical, mental, and emotional

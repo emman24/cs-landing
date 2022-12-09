@@ -30,7 +30,7 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section className="container mt-6 mb-6">
+			<section className="container mt-6 mb-6 p-5">
 				<div className="columns is-centered">
 					<div className="column input-box-width pt-6">
 						<div class="field is-horizontal">

@@ -19,13 +19,13 @@ export default function Support() {
                 Careers at <br /> Edmentum
               </h1>
               <p className="is-size-5 has-text-left has-text-grey">
-                At Edmentum, we are a team committed to being educators' most
+                At Edmentum, we are a team committed to being educators most
                 trusted partner in creating successful student outcomes
                 everywhere learning occurs. We work hard to support educators
                 across the country, and our key values of passion, people,
                 respect, collaboration, and performance guide our mission. We
                 are always looking for passionate, collaborative, and energetic
-                people to join our team, where employees' hard work is rewarded
+                people to join our team, where employees hard work is rewarded
                 with a fun and flexible work environment that offers competitive
                 pay and benefits, professional development, and growth
                 opportunities.
@@ -60,7 +60,7 @@ export default function Support() {
               We offer a highly competitive benefits package that makes working
               at Edmentum a smart decision. We signficantly contribute to the
               cost of your benefits for you and your family, so no matter what
-              your needs are, we've got you covered.
+              your needs are, weve got you covered.
             </p>
           </div>
         </div>
